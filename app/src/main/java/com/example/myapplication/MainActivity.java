@@ -84,6 +84,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.nine_btn).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                prev = false;
                 if(prev == true){
                     number1+="9";
                     display+="9";
@@ -106,6 +107,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.eight_btn).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                prev = false;
                 if(prev == true){
                     number1+="8";
                     display+="8";
@@ -129,6 +131,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 if(prev == true){
+                    prev = false;
                     number1+="7";
                     display+="7";
                     text.setText(display);
@@ -150,6 +153,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 if(prev == true){
+                    prev = false;
                     number1+="6";
                     display+="6";
                     text.setText(display);
@@ -170,6 +174,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.five_btn).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                prev = false;
                 if(prev == true){
                     number1+="5";
                     display+="5";
@@ -191,6 +196,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.four_btn).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                prev = false;
                 if(prev == true){
                     number1+="4";
                     display+="4";
@@ -212,6 +218,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.three_btn).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                prev = false;
                 if(prev == true){
                     number1+="3";
                     display+="3";
@@ -233,6 +240,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.two_btn).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                prev = false;
                 if(prev == true){
                     number1+="2";
                     display+="2";
@@ -254,6 +262,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.one_btn).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                prev = false;
                 if(prev == true){
                     number1+="1";
                     display+="1";
@@ -275,6 +284,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.zero_btn).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                prev = false;
                 if(prev == true){
                     number1+="0";
                     display+="0";
